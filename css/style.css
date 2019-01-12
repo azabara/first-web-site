@@ -11,6 +11,13 @@ h1 {
   font-family: 'Sacramento', cursive;
 }
 
+hr {
+  border: dotted #ea6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
 .about {
   font-size: 20px;
   font-weight: normal;
@@ -36,21 +43,24 @@ left: 250px;
 }
 
 .middle-container {
-  
 }
 
 .bottom-container {
-
+background-color: #34a7b2;
+padding: 50px 0 20px;
 }
 
 .profile {
   padding-top: 50px;
+  width: 30%;
+  margin: auto;
+  padding-bottom: 10px;
 }
 
 .skill-row {
 
   width: 25%;
-  margin: 55px auto 55px auto;
+  margin: auto auto auto auto;
   text-align: left;
   line-height: 2;
 }
@@ -59,11 +69,16 @@ left: 250px;
   width: 25%;
   float: left;
   margin-right: 30px;
-  padding
 }
 
 .portfolio {
   width: 25%;
   float: right;
   margin-left: 30px;
+}
+
+.copyright {
+  color: #e0e2e4;
+  font-size: 12px;
+  font-family: monospace;
 }
